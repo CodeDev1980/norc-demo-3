@@ -1,24 +1,54 @@
 /* Color of the links BEFORE scroll */
-.navbar-scroll .nav-link,
+.navbar-scroll .nav-link, .fixedLogo1,
 .navbar-scroll .navbar-toggler .fa-bars {
-    color: #fff;
+    color: #f4f4f4;
 }
 
 /* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
+.navbar-scrolled .nav-link, .fixedLogo1,
 .navbar-scrolled .navbar-toggler .fa-bars {
-    color: #4f4f4f;
+    color: #f4f4f4;
 }
 
 /* Color of the navbar AFTER scroll */
 .navbar-scrolled {
-    background-color: #fff;
+    background-color: #000000;
 }
 
 /* An optional height of the navbar AFTER scroll */
 .navbar.navbar-scroll.navbar-scrolled {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.fixedLogo1 {
+    position: absolute;
+    top: 10px;
+    left: 46%;
+    right: 46%;
+    height: 75px;
+    width: 80px;
+    background-color: orange;
+    border: 6px double white;
+    padding: 12px;
+    border-radius: 50%;
+}
+.fixedLogo2 {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    height: 75px;
+    width: 80px;
+    border: 6px double white;
+    padding: 12px;
+    border-radius: 50%;
+}
+body {
+    background: url('https://images.unsplash.com/photo-1560780552-ba54683cb263?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .max {
     width: 300px;
